@@ -170,3 +170,16 @@ AND (dept_name='Sales');
 SELECT * FROM retirement_by_department;
 
 -- Sales and development team table for mentorship roles
+SELECT e.emp_no,
+	e.first_name,
+	e.last_name,
+	d.dept_name
+INTO mentorship_retirement_info
+FROM employees as e
+INNER JOIN dept_emp AS de
+ON (e.emp_no = de.emp_no)
+INNER JOIN departments AS d
+ON (de.dept_no = d.dept_no)
+WHERE (birth_date BETWEEN '1952-01-01' AND '1955-12-31')
+AND (hire_date BETWEEN '1985-01-01' AND '1988-12-31')
+AND (dept_name IN ('Sales', 'Development'));
