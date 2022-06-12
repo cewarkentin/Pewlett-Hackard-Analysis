@@ -11,15 +11,17 @@ Provided with the following data:
 
 ![EmployeeDB](https://github.com/cewarkentin/Pewlett-Hackard-Analysis/blob/main/EmployeeDB.png)
 
-we established a PH employee database and used SQL to make queries identifying th number of retiring employees by job title, as well as the employees eligible for the mentorship program.
+we established a PH employee database and used SQL to make queries identifying the number of retiring employees by job title, as well as the employees eligible for the mentorship program.
 
 Based on provided information, potentially retiring employees were identified based on birthdates between 1952-1955.
 
 ## Results
 
-Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
-
 There is a bulleted list with four major points from the two analysis deliverables.
+- The position potentially losing the most employees is a Senior Engineer (25,916 employees). Additionally, the position of Engineer is potentially losing the third largest amount of employees(9,285 employees). There is an additional potential 1,090 Assitant Engineer employees retiring. This leaves a total of 36,291 potentially vacant engineering positions.
+- The position potentially losing the second most employees is a Senior Staff member, and the position of Staff is potentially losing the fourth largest amount of employees.
+- three
+- four
 
 ## Summary
 
@@ -28,3 +30,5 @@ Provide high-level responses to the following questions, then provide two additi
 - Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 
 The summary addresses the two questions and contains two additional queries or tables that may provide more insight.
+
+I do not like the eligibility for the mentorship program being based on employee age-- I would prefer to look at length of employment as a measure of whether or not an employee should be eligible for mentorship and moving upward in the company. Or if there was data on employee performance. 
