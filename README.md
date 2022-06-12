@@ -17,18 +17,15 @@ Based on provided information, potentially retiring employees were identified ba
 
 ## Results
 
-There is a bulleted list with four major points from the two analysis deliverables.
 - The position potentially losing the most employees is a Senior Engineer (25,916 employees). Additionally, the position of Engineer is potentially losing the third largest amount of employees(9,285 employees). There is an additional potential 1,090 Assitant Engineer employees retiring. This leaves a total of 36,291 potentially vacant engineering positions.
 - The position potentially losing the second most employees is a Senior Staff member, and the position of Staff is potentially losing the fourth largest amount of employees.
-- three
-- four
+- The Mentorship Eligibility table only contains 1,550 employees based on the criteria used (a birthdate in 1965).
+- Numbers across the various tables do not add up consistently. However, in Module 7.3.5 there were other odd observations leading to the following three questions: "What's going on with the salaries?", "Why are there only five active managers for nine departments?" and "Why are some employees appearing twice?" The data does not seem to be very clean.
 
 ## Summary
 
-Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
-- How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-- Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+According to the retirement_by_department (Module 7.3.4), there are 36,619 potential future vacant positions. According to the retiring_titles table, there are a total of 72,458 potential future vacant positions.
 
-The summary addresses the two questions and contains two additional queries or tables that may provide more insight.
+- The Mentorship Eligibility table contains 1,550 employees so there are more than enough potential retiring employees to mentor 1,550 employees staying in the company.
 
 I do not like the eligibility for the mentorship program being based on employee age-- I would prefer to look at length of employment as a measure of whether or not an employee should be eligible for mentorship and moving upward in the company. Or if there was data on employee performance. 
