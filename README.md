@@ -1,14 +1,19 @@
-# Pewlett-Hackard Analysis
+# Pewlett Hackard Analysis
 
 ## Overview of Project
 
-Explain the purpose of this analysis
+Pewlett Hackard is a large company looking to appropriately prepare for the upcoming retirement wave of its Baby Boomer employees. 
+
+1. PH would like to offer a retirement package to certain eligible employees.
+2. PH would like to establish a mentorship program to train employees filling the expected vacant positions.
 
 Provided with the following data:
 
-![Candidate_results](https://github.com/cewarkentin/Election_Analysis/blob/main/Candidate%20results.png)
+![EmployeeDB](https://github.com/cewarkentin/Pewlett-Hackard-Analysis/blob/main/EmployeeDB.png)
 
-we were asked to analyze 
+we established a PH employee database and used SQL to make queries identifying th number of retiring employees by job title, as well as the employees eligible for the mentorship program.
+
+Based on provided information, potentially retiring employees were identified based on birthdates between 1952-1955.
 
 ## Results
 
